@@ -1,19 +1,8 @@
-"repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "legovaer/selenium-ide-parser",
-            "version": "dev-master",
-            "source": {
-                "url": "git://github.com/legovaer/selenium-ide-parser",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "Legovaer\\SeleniumIDEParser" : "src"
-                }
-            }
+{
+    "name": "legovaer/selenium-ide-parser",
+    "autoload": {
+        "psr-0" : {
+            "Legovaer\\SeleniumIDEParser" : "src"
         }
     }
-],
+}
